@@ -1,0 +1,25 @@
+.status-card{
+    background: rgba(18,32,54,.55);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    padding:25px;
+    border-radius:18px;
+    transition:.3s;
+    border:1px solid rgba(255,255,255,.08);
+    box-shadow:0 0 25px rgba(0,183,255,.15);
+}
+
+.status-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 30px rgba(0,183,255,.4);
+}
+
+.status-card h3{
+    color:#9ab0cf;
+    margin-bottom:15px;
+}
+
+.status-card h1{
+    font-size:34px;
+    color:#53d6ff;
+}

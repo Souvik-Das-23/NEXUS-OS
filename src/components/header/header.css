@@ -1,0 +1,32 @@
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:30px;
+}
+
+.header h2{
+font-size:30px;
+margin-bottom:8px;
+}
+
+.header p{
+color:#8ca5c7;
+}
+
+.status{
+display:flex;
+align-items:center;
+gap:10px;
+padding:10px 18px;
+background:#111d2f;
+border-radius:30px;
+}
+
+.dot{
+width:10px;
+height:10px;
+background:#00ff66;
+border-radius:50%;
+box-shadow:0 0 10px #00ff66;
+}
