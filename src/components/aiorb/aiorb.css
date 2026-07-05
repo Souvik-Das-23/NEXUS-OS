@@ -1,0 +1,55 @@
+.orb-container{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+margin:40px 0;
+}
+
+.orb{
+width:180px;
+height:180px;
+border-radius:50%;
+background:radial-gradient(circle,#53d6ff,#0066ff,#08111f);
+box-shadow:
+0 0 30px #00bfff,
+0 0 60px #008cff,
+0 0 90px #0055ff;
+animation:pulse 3s infinite;
+}
+
+.orb-container h2{
+margin-top:25px;
+font-size:30px;
+color:#53d6ff;
+}
+
+.orb-container p{
+margin-top:10px;
+color:#9ab0cf;
+}
+
+@keyframes pulse{
+
+0%{
+transform:scale(1);
+box-shadow:
+0 0 20px #00bfff,
+0 0 40px #008cff;
+}
+
+50%{
+transform:scale(1.08);
+box-shadow:
+0 0 50px #00d5ff,
+0 0 100px #008cff;
+}
+
+100%{
+transform:scale(1);
+box-shadow:
+0 0 20px #00bfff,
+0 0 40px #008cff;
+}
+
+}
