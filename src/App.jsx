@@ -1,6 +1,6 @@
 import "./App.css";
 
-import Background from "./components/background/background";
+import Background from "./background/background";
 import Sidebar from "./components/sidebar/sidebar";
 import Header from "./components/header/header";
 import Dashboard from "./components/dashboard/dashboard";
